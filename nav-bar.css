@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    padding: 0;
+   
+
+}
+
+.header-content{
+    background-color: aquamarine;
+    padding: 10px;
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-content .nav-bar a{
+    color:black;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.header-content .nav-bar a:last-child{
+    margin:0px;
+
+}

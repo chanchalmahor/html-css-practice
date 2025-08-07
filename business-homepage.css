@@ -1,0 +1,121 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+header{
+    /* border-bottom:1px solid rgba(0,0,0,0.1) ; */
+    background-color: #005f73;
+    padding: 15px 0px;
+    
+}
+
+
+header .header-content{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header-content .primary-nav a{
+    text-decoration: none;
+    color: white;
+    margin-right:20px ;
+    transition: 0.2s;
+   
+}
+
+.header-content .primary-nav a:last-child{
+    margin-right: 0px;
+}
+
+.hero .hero-section{
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    margin-left: 500px;
+    margin-right:500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.hero .hero-section a{
+    background-color: red;
+    padding:10px ;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-decoration:none ;
+    color: white;
+}
+
+.hero{
+    background-image: url(https://t4.ftcdn.net/jpg/07/08/03/45/360_F_708034529_rfdk5Zm7BklQ93s6eq2VkU9QmuB7aLvW.jpg);
+    padding-bottom: 150px;
+    padding-top: 100px;
+}  
+
+.services{
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.services ul li{
+    margin-top:10px;
+    margin-left: 35px;
+    list-style-type: circle;
+
+    
+}
+.services h2{
+    color:  #007bff;
+}
+
+.about{
+    background-color:  #f0f0f0;
+    padding: 80px;
+    text-align: left;
+    font-size:20px;
+    padding-left: 30px;
+}
+
+.about h2{
+    color:#28a745;
+}
+
+.about p{
+    margin-top:20px ;
+    
+}
+
+.contact h2{
+    color: #dc3545;
+   
+}
+
+.contact{
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #005f73;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#services li:hover,
+#contact p:hover {
+    color: #0056b3;
+    cursor: pointer;
+}

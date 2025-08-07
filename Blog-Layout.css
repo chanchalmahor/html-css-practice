@@ -1,0 +1,36 @@
+body
+{
+    background-color: #f8f8f8; 
+    font-family: Arial;
+
+}
+
+body,
+h1,
+h2{
+    margin: 0;
+}
+
+header{
+    background-color:#6a1b9a;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+main{
+    margin: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.article{
+    padding: 40px;
+    border-bottom: 1px solid #ccc;
+}
+footer{
+    background-color:#6a1b9a;
+    padding: 20px; 
+    text-align: center;
+    color: white;
+}

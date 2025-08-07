@@ -1,0 +1,50 @@
+body,
+h1,
+h2{
+    margin: 0;
+    text-align: center;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color:#f4f8fb;
+}
+
+header{
+    background-color: #ff0000;
+    text-align: center;
+    font-weight: bold;
+    padding: 80px;
+    color: #ffffff;
+    /* background-image: url('https://i.imgur.com/RurqKDM.jpg');  */
+    background-size: cover;
+    font-size: large;
+}
+
+button{
+    background-color:#0000ff ;
+    border-radius: 8px ;
+    border-color: #0000ff;
+    color: #ffffff;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Feature{ 
+    background-color:#ffffff;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+
+}
+
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+}
